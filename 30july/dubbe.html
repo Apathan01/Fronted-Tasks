@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .box{
+            height: 100px;
+            width: 100px;
+            background-color: rgb(255, 0, 0);
+            margin: 3px;
+        }
+      .box2{
+        height: 100px;
+         width: 100px;
+         background-color: rgb(5, 26, 247);
+         margin: 10px;      
+      }
+      .cont{
+        width: 60%;
+        height: 400px;
+        background-color: aqua;
+        margin: 10px;
+      }
+      .box{
+        height: 100px;
+        width: 100px;
+        border: 2px solid black;
+        margin: 10px;
+      }
+      .cont:nth-child(1) > .box{
+        background-color: red;
+      }
+      .cont:nth-child(2) > .box{
+        background-color: rgb(68, 0, 255);
+      }
+ 
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box2"></div>
+    <div class="box2"></div>
+     <div class="box"></div>
+    <div class="box2"></div> 
+    <div class="box2"></div>
+   <br>
+   <br>
+   //////////////////////////////////////////////////////////////////////////////////
+  <div class="cont">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+  <div class="cont">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+
+</body>
+</html>
