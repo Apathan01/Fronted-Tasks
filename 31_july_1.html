@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        :root{
+            --first-color: rgb(222, 228, 41);
+            --second-color: rgb(247, 239, 255);
+            --sub-color:  rgb(115, 64, 163);
+            --fav-color:rgb(124, 237, 214);
+            --def-h:78px;
+            
+            
+        }
+        body{
+            background-color: var(--fav-color);
+
+        }
+        .box-s{
+            width: 100px;
+            height: 100px;
+            background-color: var(--first-color);
+        }
+        .box-m{
+            width: 200px;
+            height: 100px;
+            background-color: var(--second-color);
+        }
+        .box-l{
+            width: 300px;
+            height: 200px;
+            background-color:var(--sub-color);
+            font-size: var(--def-h);
+        }
+    </style>
+</head>
+<body>
+    <div class="box-s"></div>
+    <div class="box-m"></div>
+    <div class="box-l"></div>
+    <div class="box-s"></div>
+    <div class="box-l">Arbaz</div>
+    <div class="box-s"></div>
+    <div class="box-l"></div>
+    <div class="box-m"></div>
+</body>
+</html>
